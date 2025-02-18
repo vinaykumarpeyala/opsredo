@@ -4,11 +4,12 @@
 int main() {
     int a = 5;
     int b = 5;
-    int c;
+int c=5;
+    int d;
     
     clrscr();
-    c = a + b;
-    printf("Addition of a and b is: %d", c);
+    d = a + b+ c;
+    printf("Addition of a and b is: %d", d);
     
     getch();
     return 0;
